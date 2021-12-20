@@ -8,7 +8,7 @@ int main()
   printf("\n Enter Voter Age = ");
   scanf("%d",&Age);
   
-  if(Age >= 18)
+  if(Age <= 18)
    {
      printf("\n Voter is Eligible ");
    }
