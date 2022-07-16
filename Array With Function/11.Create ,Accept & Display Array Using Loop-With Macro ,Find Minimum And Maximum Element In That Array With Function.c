@@ -17,6 +17,7 @@
           printf("\n Maximum Number Is = %d",Find_Maximum_Num(Arr));
 
           getch();
+  
           printf("\n Minimum Number Is = %d",Find_Minimum_Num(Arr));
 
           return;
@@ -43,7 +44,7 @@
                 Max = N2[i];
            }
       }
-      return;
+      return Max;
  }
  int Find_Minimum_Num(int N3[])
  {
@@ -56,5 +57,5 @@
                 Min = N3[i];
            }
       }
-      return;
+      return Min;
  }
