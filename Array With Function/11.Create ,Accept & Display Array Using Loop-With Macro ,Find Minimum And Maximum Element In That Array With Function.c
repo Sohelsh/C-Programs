@@ -24,38 +24,38 @@
  }
  int Accepts_Element(int N1[])
  {
-      int i = 0;
+          int i = 0;
 
-      for(i = 0;i < Cnt ;i++)
-      {
-           printf("\n %d.Entar Numbers = ",i+1);
-           scanf("%d",&N1[i]);
-      }
-      return;
+          for(i = 0;i < Cnt ;i++)
+          {
+               printf("\n %d.Entar Numbers = ",i+1);
+               scanf("%d",&N1[i]);
+          }
+          return;
  }
  int Find_Maximum_Num(int N2[])
  {
-      int i = 0,Max;
+         int i = 0,Max;
 
-      for(i = 0;i < Cnt;i++)
-      {
-           if(Max < N2[i])
-           {
-                Max = N2[i];
-           }
-      }
-      return Max;
+         for(i = 0;i < Cnt;i++)
+         {
+              if(Max < N2[i])
+              {
+                   Max = N2[i];
+              }
+         }
+         return Max;
  }
  int Find_Minimum_Num(int N3[])
  {
-      int i = 0, Min = 0;
+         int i = 0, Min = 0;
 
-      for(i = 0;i < Cnt;i++)
-      {
-           if(Min > N3[i])
-           {
-                Min = N3[i];
-           }
-      }
-      return Min;
- }
+         for(i = 0;i < Cnt;i++)
+         {
+              if(Min > N3[i])
+              {
+                   Min = N3[i];
+              }
+         }
+         return Min;
+    }
