@@ -7,36 +7,36 @@
 
   int main()
   {
-       int Arr[Cnt] = {0};
+               int Arr[Cnt] = {0};
 
-       Accepts_Element(Arr);
+               Accepts_Element(Arr);
 
-       getch();
+               getch();
 
-       Display_Element(Arr);
+               Display_Element(Arr);
   }
    int Accepts_Element(int Num[])
    {
-        int i = 0;
+              int i = 0;
 
-        for(i = 0;i < Cnt;i++)
-        {
-             printf("\n %d.Entar A Elements = ",i+101);
-             scanf("%d",&Num[i]);
-        }
+              for(i = 0;i < Cnt;i++)
+              {
+                   printf("\n %d.Entar A Elements = ",i+101);
+                   scanf("%d",&Num[i]);
+              }
 
-         return;
+               return;
    }
    int Display_Element(int No[])
    {
-        int i = 0;
+              int i = 0;
 
-        for(i = 0;i < Cnt;i++)
-        {
-             printf("\n Elements Is = %d",No[i]);
-        }
+              for(i = 0;i < Cnt;i++)
+              {
+                   printf("\n Elements Is = %d",No[i]);
+              }
 
-        return;
+              return;
 
    }
 
