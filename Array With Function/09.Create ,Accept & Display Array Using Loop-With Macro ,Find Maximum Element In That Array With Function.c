@@ -7,38 +7,38 @@
 
  int main()
  {
-      int Arr[Cnt] = {};
+            int Arr[Cnt] = {};
 
-      Accepts_Element(Arr);
+            Accepts_Element(Arr);
 
-      getch();
+            getch();
 
-      printf("\n Maximum Number Is = %d",Find_Maximum_Num(Arr));
+            printf("\n Maximum Number Is = %d",Find_Maximum_Num(Arr));
 
-      return;
+            return;
  }
  int Accepts_Element(int N1[])
  {
-      int i = 0;
+           int i = 0;
 
-      for(i = 0;i < Cnt;i++)
-      {
-           printf("\n %d.Entar Numbers = ",i+1);
-           scanf("%d",&N1[i]);
-      }
-      return;
+           for(i = 0;i < Cnt;i++)
+           {
+                printf("\n %d.Entar Numbers = ",i+1);
+                scanf("%d",&N1[i]);
+           }
+           return;
  }
  int Find_Maximum_Num(int N2[])
  {
-      int i = 0, Max = 0;
+          int i = 0, Max = 0;
 
-      for(i = 0;i < Cnt;i++)
-      {
-           if(Max < N2[i])
-           {
-                Max = N2[i];
-           }
-      }
-      return;
+          for(i = 0;i < Cnt;i++)
+          {
+               if(Max < N2[i])
+               {
+                    Max = N2[i];
+               }
+          }
+          return;
  }
 
