@@ -4,24 +4,21 @@
 
  int main()
  {
-     int No=0,Sum=0,Dig =0,Temp=0;
+      int No=0,Sum=0,Dig =0,Temp=0;
 
-     printf("\n Entar  3 Digit Numbar =  ");
-     scanf("%d",&No);
+       printf("\n Entar  3 Digit Numbar =  ");
+       scanf("%d",&No);
 
-     Temp=No;
+       Temp=No;
 
-     while(Temp > 0)
+       while(Temp > 0)
      {
-
         Dig  = Temp %10;
         Temp = Temp / 10;
         Sum  = Sum + Dig;
-
-
      }
-      printf("%d",Sum);
+       printf("%d",Sum);
 
-      getch();
-      return 0;
+       getch();
+       return 0;
  }
