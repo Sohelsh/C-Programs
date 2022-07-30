@@ -13,11 +13,11 @@
   };
  int main()                                            //or using Headar File #pragma pack(1)
  {
-     struct Collage Stu1;
+         struct Collage Stu1;
 
-     printf("\n Size Of Structure =%d",sizeof(Stu1));
+         printf("\n Size Of Structure =%d",sizeof(Stu1));
 
 
-     getch();
-     return 0;
+         getch();
+         return 0;
  }
