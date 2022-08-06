@@ -4,7 +4,7 @@
 
  int main()
  {
-           int Value[7]={11,22,33,44,55,66,77};
+           int Value[7]= {11,22,33,44,55,66,77};
 
            printf("\n Frist   Element = %d",Value[0]);
            printf("\n Second  Element = %d",Value[1]);
