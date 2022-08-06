@@ -5,7 +5,7 @@
 
  int main()
  {
-        int Arr[Cnt]={},i = 0, Ser = 0;
+        int Arr[Cnt]= {},i = 0, Ser = 0;
 
         printf("\n\t******Entar Element******");
         for(i = 0;i < Cnt;i++)
