@@ -4,7 +4,7 @@
 
  int main()
  {
-               int Arr[Cnt] = {},i = 0,src = 0;
+               int Arr[Cnt] ={},i = 0,src = 0;
 
                for(i = 0;i < Cnt;i++)
                {
