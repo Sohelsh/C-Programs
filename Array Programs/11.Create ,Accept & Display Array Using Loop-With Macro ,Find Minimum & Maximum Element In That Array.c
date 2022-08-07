@@ -4,7 +4,7 @@
 
  int main()
  {
-          int Arr[Size] = {0},i = 0,Max = 0,Min = 0;
+          int Arr[Size] = {0}, i = 0,Max = 0,Min = 0;
 
           for(i = 0;i < Size;i++)
           {
