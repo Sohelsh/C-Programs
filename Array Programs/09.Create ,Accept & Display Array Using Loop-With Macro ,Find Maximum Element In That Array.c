@@ -4,7 +4,7 @@
 
  int main()
  {
-      int Arr[Cnt] ={},i = 0,Max = 0;
+      int Arr[Cnt] = {},i = 0,Max = 0;
 
       printf("\n\t Entar Seven Numbers = ");
 
