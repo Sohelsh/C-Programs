@@ -4,7 +4,7 @@
 
  int main()
  {
-      int Arr[Cnt]={},i = 0,Min =0;
+      int Arr[Cnt]= {},i = 0,Min =0;
 
       printf("\n\t Entar Eight Numbers = ");
       for(i = 0;i < Cnt ;i++)
