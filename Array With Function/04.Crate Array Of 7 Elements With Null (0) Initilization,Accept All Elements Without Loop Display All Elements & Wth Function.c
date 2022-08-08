@@ -5,7 +5,7 @@
 
  int main()
  {
-      int Value[7] = {0};
+      int Value[7] =  {0};
 
       Display_Elements(Value);
 
