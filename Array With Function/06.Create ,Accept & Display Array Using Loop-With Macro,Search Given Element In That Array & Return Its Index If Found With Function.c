@@ -27,7 +27,7 @@
  }
  int Accepts_Element(int N1[])
  {
-           int i = 0;
+           int i =  0;
 
            printf("\n ********Entar A Elements*********");
            for(i = 0;i < Cnt ;i++)
