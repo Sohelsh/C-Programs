@@ -13,7 +13,7 @@
             }
             for(i = 0;i < Size;i++)
             {
-                 printf("\n Element Is = %d ",Arr[i]);
+                 printf("\n Element Is = %d ", Arr[i]);
             }
             for(i = 0;i < Size;i++)
             {
