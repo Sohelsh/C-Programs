@@ -10,7 +10,7 @@
  }
 int Array_Element()
 {
-          int Arr[5]={0};
+          int Arr[5]= {0};
 
           printf("\n Frist  Element = %d",Arr[0]);
           printf("\n Second Element = %d",Arr[1]);
