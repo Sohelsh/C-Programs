@@ -12,7 +12,7 @@
 
  Array_Element()
  {
-          int Arr[5]={65,76,28,27,12};
+          int Arr[5]= {65,76,28,27,12};
 
           printf("\n Element Is = %d",Arr[0]);
           printf("\n Element Is = %d",Arr[1]);
