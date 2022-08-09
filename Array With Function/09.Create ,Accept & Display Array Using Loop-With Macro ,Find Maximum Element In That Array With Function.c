@@ -7,7 +7,7 @@
 
  int main()
  {
-            int Arr[Cnt] = {};
+            int Arr[Cnt] =  {};
 
             Accepts_Element(Arr);
 
