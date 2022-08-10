@@ -3,7 +3,7 @@
 
 int main()
 {
-  char ch = '\0';
+  char ch =  '\0';
   
   printf("\n\nEnter a Character To Check Whether,\n\n(It is Upper case =  Or Lover Case = Or Digit = Or Special Symbol = )= ");
   scanf("%c",&ch); // or ch = getche();
