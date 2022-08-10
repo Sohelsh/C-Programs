@@ -3,7 +3,7 @@
 
 int main()
 {
-  float Budget = 0.0;
+  float Budget =  0.0;
   
   printf("\n Enter Your Budget = ");
   scanf("%f",&Budget);
