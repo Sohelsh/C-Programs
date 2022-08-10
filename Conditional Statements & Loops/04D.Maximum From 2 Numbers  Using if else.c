@@ -3,7 +3,7 @@
 
 int main()
 {
-  int Num1 = 0 ,Num2 = 0;
+  int Num1 = 0 ,Num2 =  0;
   
   printf("\n Enter 2 Integers Numbers = ");
   scanf("%d%d",Num1,Num2);
