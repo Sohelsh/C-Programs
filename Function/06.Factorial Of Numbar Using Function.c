@@ -4,7 +4,7 @@
  long long int Factorial_Of_Numbar(int);
 
  int main()
- {   int No =0;
+ {   int No = 0;
      long long int Res = 0;
 
      printf("\n Entar A Numbar = ");
