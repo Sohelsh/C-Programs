@@ -4,7 +4,7 @@ int Add(void);
 
 int main()
 {
-    int Sum = 0;
+    int Sum =  0;
 
     Sum = Add();
 
