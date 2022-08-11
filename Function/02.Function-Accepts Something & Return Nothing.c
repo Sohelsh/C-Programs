@@ -4,7 +4,7 @@ void Add(int,int);
 
 int main()
 {
-    int No1 = 0,No2 = 0;
+    int No1 = 0,No2 =  0;
 
     printf("\n Entar 2 Numbars = ");
     scanf("%d%d",&No1,&No2);
