@@ -16,7 +16,7 @@ int main()
 }
 void Add()
 {
-      int No1 = 0,No2 = 0,Res = 0;
+      int No1 = 0,No2 = 0,Res =  0;
 
       printf("\n\n Entar 2 Numbars = ");
       scanf("%d%d",&No1,&No2);
