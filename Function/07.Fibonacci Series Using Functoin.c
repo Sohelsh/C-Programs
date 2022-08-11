@@ -5,7 +5,7 @@
 
  int main()
  {
-      int Cnt = 0;
+      int Cnt =  0;
 
       printf("\n Entar Count Of Series = ");
       scanf("%d",&Cnt);
