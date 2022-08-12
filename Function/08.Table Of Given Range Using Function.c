@@ -5,7 +5,7 @@ int Table_Of_Range(int,int);
 
 int main()
 {
-    int SNo = 0,ENo = 0;
+    int SNo = 0,ENo =  0;
 
      up:
     printf("\n\n Entar Staring Point = ");
