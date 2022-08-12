@@ -5,7 +5,7 @@
 
  int main()
  {
-      int No1 = 0,No2 = 0,Res = 0;
+      int No1 = 0,No2 = 0,Res =  0;
 
       printf("\n Entar No1 Raise To No2 = ");
       scanf("%d%d",&No1,&No2);
