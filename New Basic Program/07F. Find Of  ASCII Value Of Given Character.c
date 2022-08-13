@@ -3,7 +3,7 @@
 
 int main()
 {
-    char Ch=0;
+    char Ch= 0;
 
 
     printf("\n Character to ASCII Conversion  \n");
