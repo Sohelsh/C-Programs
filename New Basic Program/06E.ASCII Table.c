@@ -3,7 +3,7 @@
 
 int main()
 {
-    int No=0;
+    int No= 0;
 
     for(No =0 ;No < 128;No++)
 
