@@ -4,7 +4,7 @@
 
  int main()
  {
-     int No=0;
+     int No= 0;
 
      printf("\n Enter A Any Numbar = ");
      scanf("%d",&No);
