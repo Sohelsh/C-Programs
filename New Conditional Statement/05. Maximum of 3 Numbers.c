@@ -4,7 +4,7 @@
 
   int main()
   {
-      int Num1 =0,Num2=0,Num3 =0;
+      int Num1 =0,Num2=0,Num3 = 0;
 
       printf("\n Enter First Numbar = ");
       scanf("%d",&Num1);
