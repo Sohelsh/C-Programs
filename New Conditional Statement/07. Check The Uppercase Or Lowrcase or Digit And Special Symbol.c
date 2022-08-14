@@ -3,7 +3,7 @@
 
 int main()
 {
-    char Ch= '\0';
+    char Ch = '\0';
 
     printf("\n Entar A Charactor = ");
     Ch =getche(); //scanf("%c",&Ch);
