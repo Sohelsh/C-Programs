@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-#define Size 7
+#define Size 5
 
  int Accepts_Elements(int N1[]);
  int Display_Elements(int N2[]);
