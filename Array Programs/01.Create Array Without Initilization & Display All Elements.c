@@ -11,5 +11,7 @@
            printf("\n Fourth Element = %d",Value[3]);
            printf("\n Fifth  Element = %d",Value[4]);
 
+
            getch();
+           return 0;
  }
