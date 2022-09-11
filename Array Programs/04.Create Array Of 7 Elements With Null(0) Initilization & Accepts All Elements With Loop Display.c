@@ -15,5 +15,6 @@
            printf("\n Sevnth  Element = %d",Value[6]);
 
            getch();
+           return 0;
  }
 
