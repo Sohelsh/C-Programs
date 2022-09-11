@@ -3,7 +3,7 @@
 
  int main()
  {
-           int Value[5]= {23,53,64,58,26};
+           int Value[5]= {23,85,64,88,26};
 
            printf("\n Frist  Element = %d",Value[0]);
            printf("\n Second Element = %d",Value[1]);
@@ -12,4 +12,5 @@
            printf("\n Fifth  Element = %d",Value[4]);
 
            getch();
+           return 0;
  }
