@@ -23,4 +23,7 @@
       }
 
       printf("\n Maximum Number Is = %d",Max);
+
+      getch();
+      return 0;
  }
