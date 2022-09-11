@@ -52,6 +52,7 @@
              printf("\n Element Is Not Found ");
          }
 
-         return 0;
+
          getch();
+         return 0;
  }
