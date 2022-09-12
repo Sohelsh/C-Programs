@@ -21,4 +21,7 @@
            }
       }
       printf("\n Minimum Number Is = %d",Min);
+
+      getch();
+      return 0;
  }
