@@ -19,6 +19,8 @@
                getch();
 
                Search_Element(Arr);
+
+               return 0;
   }
   int Accepts_Elements(int N1[])
   {
