@@ -24,6 +24,8 @@
            Search_Element(Arr);
 
            printf("\n\n Thanks For Visiting .....");
+
+           return 0;
  }
  int Accepts_Element(int N1[])
  {
