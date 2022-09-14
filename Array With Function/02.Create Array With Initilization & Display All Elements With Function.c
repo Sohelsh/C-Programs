@@ -8,6 +8,8 @@
           Array_Element();
 
           printf("\n Thanks..........");
+
+          return 0;
  }
 
  Array_Element()
