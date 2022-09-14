@@ -14,6 +14,8 @@
                getch();
 
                Display_Element(Arr);
+
+               return 0;
   }
    int Accepts_Element(int Num[])
    {
