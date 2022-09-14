@@ -14,6 +14,8 @@
           getch;
 
           printf("\n Minimum Number Is = %d ",Find_Minimum_Num(Arr));
+
+          return 0;
  }
  int Accepts_Element(int N1[])
  {
