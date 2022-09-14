@@ -7,6 +7,7 @@
  {
           Array_Element();
 
+          return 0;
  }
 int Array_Element()
 {
