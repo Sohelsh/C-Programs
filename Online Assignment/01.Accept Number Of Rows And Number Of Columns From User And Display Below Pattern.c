@@ -23,6 +23,8 @@ void Pattern(int iRow,int iCol)
         }
         printf("\n");
     }
+
+    return 0;
 }
 int main()
 {
