@@ -19,6 +19,8 @@
                getch();
 
                printf("\n Second Maximum Number Is = %d",Find_Second_Max(Arr));
+
+               return 0;
  }
  int Accepts_Elements(int N1[])
  {
