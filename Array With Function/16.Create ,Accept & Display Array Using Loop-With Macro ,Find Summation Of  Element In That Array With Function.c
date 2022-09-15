@@ -14,6 +14,8 @@
           getch();
 
           printf("\n Summation Of Elements Is = %d",Sum_Of_Element(Arr));
+
+          return 0;
   }
   int Accepts_Element( int N1[])
   {
