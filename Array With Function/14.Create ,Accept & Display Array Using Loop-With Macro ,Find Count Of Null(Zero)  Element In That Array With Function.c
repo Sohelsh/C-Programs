@@ -14,6 +14,8 @@
                getch();
 
                printf("\n Count Of Null(0) Element Is = %d",Find_Zero_Cnt(Arr));
+
+               return 0;
  }
  int Accepts_Element(int N1[])
  {
