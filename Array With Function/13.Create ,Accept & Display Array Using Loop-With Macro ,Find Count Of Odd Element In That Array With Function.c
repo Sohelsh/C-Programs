@@ -14,6 +14,8 @@
             getch();
 
             printf("\n Count Of Odd Elements  Is = %d ",Find_Odd_Cnt(Arr));
+
+            return 0;
   }
    int Accepts_Element(int N1[])
   {
