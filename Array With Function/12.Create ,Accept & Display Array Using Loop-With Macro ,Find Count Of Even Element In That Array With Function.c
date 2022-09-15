@@ -15,6 +15,8 @@
 
             printf("\n Count Of Even Elements  Is = %d",Find_Even_Cnt(Arr));
 
+            return 0;
+
  }
  int Accepts_Element(int N1[])
  {
