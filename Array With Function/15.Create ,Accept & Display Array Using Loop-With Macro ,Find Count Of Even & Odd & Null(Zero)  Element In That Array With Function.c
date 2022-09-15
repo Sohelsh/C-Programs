@@ -18,6 +18,8 @@
             printf("\n Count Of Even Elements Is = %d",Find_Even_Cnt(Arr));
             printf("\n Count Of Odd Elements Is = %d",Find_Odd_Cnt(Arr));
             printf("\n Count Of Null(0) Elements Is = %d",Find_Zero_Cnt(Arr));
+
+            return 0;
   }
   int Accepts_Element(int N1[])
   {
