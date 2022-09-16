@@ -3,29 +3,29 @@
 
 int main()
 {
-     int No = 0,Temp = 0,Rev = 0,Dig = 0;
+        int No = 0,Temp = 0,Rev = 0,Dig = 0;
 
-     printf("\n Entar A Number = ");
-     scanf("%d",&No);
+        printf("\n Entar A Number = ");
+        scanf("%d",&No);
 
-     Temp=No;
+        Temp=No;
 
-     while(Temp != 0)
-     {
-          Dig  = Temp %10;
-          Temp = Temp /10;
-          Rev  = (Rev*10)+Dig;
-     }
+        while(Temp != 0)
+        {
+            Dig  = Temp %10;
+            Temp = Temp /10;
+            Rev  = (Rev*10)+Dig;
+        }
 
-      if(Rev == No)
-      {
-           printf("\n Given Number %d Is Palindrome ",No);
-      }
-      else
-      {
-           printf("\n Given Number %d Is Not Palindrome ",No);
-      }
+        if(Rev == No)
+        {
+        printf("\n Given Number %d Is Palindrome ",No);
+        }
+        else
+        {
+        printf("\n Given Number %d Is Not Palindrome ",No);
+        }
 
-      getch();
-      return 0;
+        getch();
+        return 0;
 }
