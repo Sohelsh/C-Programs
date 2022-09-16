@@ -9,6 +9,7 @@
       scanf("%d",&No);
 
       Temp=No;
+
       while(Temp != 0)
       {
            Dig = Temp % 10;
