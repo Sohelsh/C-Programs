@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
 
+// GCD = Greatest Common Divisor
+// LCM = List Common Multipal
+
 int Calculate_Of_GCD(int N1,int N2)
 {
         int i = 0,Res = 0;
