@@ -13,6 +13,7 @@
          printf("%d",Cnt * No);
          printf("\n");
      }
+
        return 0;
        getch();
  }
