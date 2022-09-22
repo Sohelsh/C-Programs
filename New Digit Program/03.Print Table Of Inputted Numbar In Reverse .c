@@ -9,10 +9,10 @@ int main()
       scanf("%d",&No);
 
       for(Cnt = 10;Cnt >= 1;Cnt--)
-       {
+      {
           printf("%d",No*Cnt);
           printf("\n");
-       }
+      }
 
 
        return 0;
