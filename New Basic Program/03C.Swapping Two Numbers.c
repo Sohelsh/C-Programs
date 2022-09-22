@@ -3,7 +3,7 @@
 
 int main()
 {
-    int No1=0,No2=0, Temp =0;
+    int No1 = 0,No2 = 0,Temp = 0;
 
     printf("\n Enter Two Number =  ");
     scanf("%d%d",&No1,&No2);
@@ -19,8 +19,5 @@ int main()
 
     getch();
     return 0;
-
-
-
 
 }
