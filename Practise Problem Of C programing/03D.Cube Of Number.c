@@ -4,16 +4,16 @@
 
 int main()
 {
-  int Dig = 0, Cube = 0;
-  
-  printf("\n Enter Any Numbers = ");
-  scanf("%d",&Dig);
-  
-  Cube = Dig * Dig * Dig;
-  
-  printf("\n Cube of Number = %d",Cube);
-  
-  
-  getch();
-  return 0;
+      int Dig = 0, Cube = 0;
+
+      printf("\n Enter Any Numbers = ");
+      scanf("%d",&Dig);
+
+      Cube = Dig * Dig * Dig;
+
+      printf("\n Cube of Number = %d",Cube);
+
+
+      getch();
+      return 0;
 }
