@@ -20,4 +20,7 @@
       Sum = N1 + N2;
 
       printf("%d",Sum);
+
+      getch();
+      return 0;
  }
