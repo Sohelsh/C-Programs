@@ -27,5 +27,7 @@ int main()
         }
 
         printf("\n Number of Count %d",Cnt);
+
+        getch();
         return 0;
 }
