@@ -4,17 +4,17 @@
 
 int main()
 {
-        const pi = 3.14;
-        int R = 0;
-        float Area = 0.0;
+            const pi = 3.14;
+            int R = 0;
+            float Area = 0.0;
 
-        printf("\n Enter A Radious = ");
-        scanf("%d",&R);
+            printf("\n Enter A Radious = ");
+            scanf("%d",&R);
 
-        Area = pi * R * R;
+            Area = pi * R * R;
 
-        printf("\n Area Of Circal =%f",Area);
+            printf("\n Area Of Circal =%f",Area);
 
-        getch();
-        return 0;
+            getch();
+            return 0;
 }
