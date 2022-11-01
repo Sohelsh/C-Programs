@@ -3,7 +3,7 @@
 
  int main()
  {
-   int No = 0,Cnt = 0,S_Dig = 0,Dig = 0,Temp = 0;
+        int No = 0,Cnt = 0,S_Dig = 0,Dig = 0,Temp = 0;
 
         printf("\n Entar a Number = ");
         scanf("%d",&No);
@@ -27,6 +27,5 @@
 
         getch();
         return 0;
-
  }
 
