@@ -16,8 +16,6 @@ int main()
               N1 = N2;
               N2 = N3;
 
-
-
               Cnt--;
          }
 
