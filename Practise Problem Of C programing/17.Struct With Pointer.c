@@ -31,7 +31,7 @@ int main()
                 Accepts_Details(&Stu[i]);
         }
 
-        printf("\n Entar Any Key To Go Display Information ");
+        printf("\n Enter Any Key To Go Display Information ");
 
         getch();
 
@@ -46,25 +46,25 @@ int main()
 
 void Accepts_Details(struct Std *sptr)
 {
-        printf("\n Entar Student Roll No = ");
+        printf("\n Enter Student Roll No = ");
         scanf("%d", &sptr->Roll_No);
 
         fflush(stdin);
 
-        printf("\n Entar Student Name = ");
+        printf("\n Enter Student Name = ");
         gets(sptr->Name);
         fflush(stdin);
 
 
         fflush(stdin);
 
-        printf("\n Entar Account Mark = ");
+        printf("\n Enter Account Mark = ");
         scanf("%d", &sptr->AC);
 
-        printf("\n Entar SP Mark = ");
+        printf("\n Enter SP Mark = ");
         scanf("%d", &sptr->SP);
 
-        printf("\n Entar OMC Mark = ");
+        printf("\n Enter OMC Mark = ");
         scanf("%d", &sptr->OMC);
 
         sptr->Total = sptr->AC + sptr->SP + sptr->OMC;
