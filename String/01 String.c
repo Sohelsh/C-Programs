@@ -4,15 +4,15 @@
 
 int main()
 {
-   char Schar[5]={'\0'};
- 
-   puts("Enter a string =");
-   gets(Schar);
-   
-   puts("Given String Is =");
-   puts(Schar);
-  
-   
-   getch();
-   return 0;
+       char Schar[5] = {'\0'};
+
+       puts("Enter a string =");
+       gets(Schar);
+
+       puts("Given String Is =");
+       puts(Schar);
+
+
+       getch();
+       return 0;
 }
