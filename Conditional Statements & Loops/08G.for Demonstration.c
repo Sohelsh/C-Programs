@@ -3,16 +3,16 @@
 
 int main()
 {
-   int i = 0;
+           int i = 0;
 
-   for(i = 1; i <= 5 ; i++)
-   {
-        printf("\n INDIA");
-        printf("\n I Love My INDIA ");
-   }
+           for(i = 1; i <= 5 ; i++)
+           {
+                printf("\n INDIA");
+                printf("\n I Love My INDIA ");
+           }
 
-   printf("\n Thanks !!!");
+           printf("\n Thanks !!!");
 
-   getch();
-   return 0;
+           getch();
+           return 0;
 }
