@@ -5,7 +5,7 @@
 
 int main()
 {
-       char Carr[40]={};
+       char Carr[40] = {};
        int i = 0;
 
        puts("Enter A String = ");
