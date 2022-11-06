@@ -3,16 +3,17 @@
 
 int main()
 {
-    int Cnt = 1 ;
+            int Cnt = 1 ;
 
-    do
-    {
-        printf("\n INDIA");
-        Cnt++;
-    } while(Cnt <= 10);
+            do
+            {
+                printf("\n INDIA");
+                Cnt++;
+            }
+             while(Cnt <= 10);
 
-    printf("\n Thanks !!!");
+            printf("\n Thanks !!!");
 
-    getch();
-    return 0;
+            getch();
+            return 0;
 }
