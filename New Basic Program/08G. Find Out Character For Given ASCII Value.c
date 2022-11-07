@@ -3,8 +3,7 @@
 
 int main()
 {
-    int No =0;
-
+    int No = 0;
 
     printf("\n ASCII to Character Conversion  \n");
 
@@ -12,7 +11,6 @@ int main()
     scanf("%d",&No);
 
     printf("\n ASCII value Of Charcater %d= %c",No,No);
-
 
     getch();
     return 0;
