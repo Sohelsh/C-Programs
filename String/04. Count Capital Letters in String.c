@@ -5,12 +5,12 @@
 ///Count Capital Letters In String.
 int main()
 {
-    char cSrc[30]={'\0'};
-    int i = 0,L_cnt = 0;
-    
+       char cSrc[30] = {'\0'};
+       int i = 0,L_cnt = 0;
+
        printf("Entar A String = ");
        gets(cSrc);
-       
+
        while(cSrc[i] != '\0')
        {
          if(cSrc[i] >= 'A'&& cSrc[i] <= 'Z')
@@ -19,7 +19,7 @@ int main()
          }
          i++;
        }
-       
+
         printf("\n Count Capitals Lattes is : %d",L_cnt);
 
        getch();
