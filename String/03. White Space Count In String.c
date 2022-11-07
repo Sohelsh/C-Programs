@@ -3,7 +3,7 @@
 
 int main()
 {
-        char cSrc[30]={'\0'};
+        char cSrc[30] = {'\0'};
         int i = 0,scout = 0;
 
         printf("Enter A String = ");
