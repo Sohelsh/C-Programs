@@ -4,10 +4,10 @@
 
 int main()
 {
-        char Stdname[20]= {'\0'};
-        int Roll_No=0;
-        char Course[10]={'\0'};
-        char City[10]={'\0'};
+        char Stdname[20] = {'\0'};
+        int Roll_No = 0;
+        char Course[10] = {'\0'};
+        char City[10] = {'\0'};
 
 
         printf("\n Enter Student Name = ");
