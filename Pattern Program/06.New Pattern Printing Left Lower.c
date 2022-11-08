@@ -4,29 +4,28 @@
 int main()
 {
 
-    int R = 0,C = 0 ,N =0;
+        int R = 0,C = 0 ,N = 0;
 
-    printf("\n Enter Row and Column Size =");
-    scanf("%d",&N);
-    
-    for(R = 1;R <= N ; R++)
-    {
-      for(C =1;C <= N ; C++)
-      {
-        if(R >= C)
+        printf("\n Enter Row and Column Size =");
+        scanf("%d",&N);
+
+        for(R = 1;R <= N ; R++)
         {
-          printf("*");
+          for(C =1;C <= N ; C++)
+          {
+            if(R >= C)
+            {
+              printf("*");
+            }
+            else
+            {
+              printf("  ");
+            }
+
+          }
+          printf("\n");
         }
-        else
-        {
-          printf("  ");
-        }
-        
-      }
-      printf("\n");
-    }
-    
-    
-    getch();
-    return 0;
+
+        getch();
+        return 0;
  }
