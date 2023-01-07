@@ -3,7 +3,7 @@
 
  int main()
  {
-      int No = 0,Dig =0;
+      int No = 0,Dig = 0;
 
       scanf("%d",&No);
 
