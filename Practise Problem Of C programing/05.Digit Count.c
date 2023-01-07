@@ -5,10 +5,10 @@
  {
         int No = 0,Cnt = 0,S_Dig = 0,Dig = 0,Temp = 0;
 
-        printf("\n Entar a Number = ");
+        printf("\n Enter a Number = ");
         scanf("%d",&No);
 
-        printf("\n Entar Count Number = ");
+        printf("\n Enter Count Number = ");
         scanf("%d",&S_Dig);
 
         Temp = No;
@@ -23,7 +23,7 @@
              }
         }
 
-        printf("\n Count Of  %d  Numbar Is = %d",Temp,Cnt);
+        printf("\n Count Of  %d  Number Is = %d",Temp,Cnt);
 
         getch();
         return 0;
