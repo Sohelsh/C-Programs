@@ -5,16 +5,16 @@
 
 int main()
 {
-  int r; float area ;
-  
-  printf("\n Enter of Rodious = ");
-  scanf("%d",&r);
-  
-  area = pi * r * r;
-  
-  printf("\n area of Circle  = %f",area);
-  
-  
-  getch();
-  return 0;
+        int r; float area ;
+
+        printf("\n Enter of Rodious = ");
+        scanf("%d",&r);
+
+        area = pi * r * r;
+
+        printf("\n area of Circle  = %f",area);
+
+
+        getch();
+        return 0;
 }
