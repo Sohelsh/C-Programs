@@ -19,34 +19,34 @@ int main()
 
         for(i = 0;i < Hos_P;i++)
         {
-        printf("\n\t %d Patient Detilas ",i+1);
+            printf("\n\t %d Patient Details ",i+1);
 
-        printf("\n\n Entar Patient Name = ");
-        gets(Hos[i].Patient_Name);
+            printf("\n\n Enter Patient Name = ");
+            gets(Hos[i].Patient_Name);
 
-        fflush(stdin);
+            fflush(stdin);
 
-        printf("\n Entar Patient Age = ");
-        scanf("%d",&Hos[i].Patient_Age);
+            printf("\n Enter Patient Age = ");
+            scanf("%d",&Hos[i].Patient_Age);
 
-        fflush(stdin);
+            fflush(stdin);
 
-        printf("\n Entar Patient From = ");
-        gets(Hos[i].Patient_From);
+            printf("\n Enter Patient From = ");
+            gets(Hos[i].Patient_From);
 
-        fflush(stdin);
+            fflush(stdin);
 
-        printf("\n ---------------------------------------------- ");
+            printf("\n ---------------------------------------------- ");
 
-        system("cls");
+            system("cls");
         }
 
         for(i = 0;i < Hos_P;i++)
         {
-        printf("\n******* %d Patients Detalis******* ",i+1);
+            printf("\n******* %d Patients Details******* ",i+1);
 
 
-        printf("\n\n Patient Name= %s \n\n Patient Age= %d \n\n Patient From = %s",Hos[i].Patient_Name,Hos[i].Patient_Age,Hos[i].Patient_From);
+            printf("\n\n Patient Name= %s \n\n Patient Age= %d \n\n Patient From = %s",Hos[i].Patient_Name,Hos[i].Patient_Age,Hos[i].Patient_From);
 
         }
 
