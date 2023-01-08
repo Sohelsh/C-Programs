@@ -8,7 +8,7 @@ int main()
             int No = 0;
             long long int Res = 0;
 
-            printf("\n Entar A Number = ");
+            printf("\n Enter A Number = ");
             scanf("%d",&No);
 
             Res = Factorial_Of_Numbar(No);
@@ -28,7 +28,7 @@ long long int Factorial_Of_Numbar(Num)
                 Fact = Fact * Num;
 
                 Num--;
-            }S
+            }
 
             return Fact;
 }
