@@ -13,6 +13,7 @@ int Reverse_Diff(int Num)
             Temp = Temp / 10;
             Rev  = (Rev * 10) + Dig;
         }
+
         return Num - Rev;
 }
 int main()
