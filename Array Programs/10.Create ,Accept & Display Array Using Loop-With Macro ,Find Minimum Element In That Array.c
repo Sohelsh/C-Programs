@@ -6,10 +6,10 @@
  {
       int Arr[Cnt]= {},i = 0,Min =0;
 
-      printf("\n\t Entar Eight Numbers = ");
+      printf("\n\t Enter Eight Numbers = ");
       for(i = 0;i < Cnt ;i++)
       {
-           printf("\n Entar %d Number = ",i+1);
+           printf("\n Enter %d Number = ",i+1);
            scanf("%d",&Arr[i]);
       }
       Min = Arr[0];
