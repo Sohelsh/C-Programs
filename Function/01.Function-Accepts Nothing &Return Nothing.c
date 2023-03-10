@@ -18,12 +18,12 @@ void Add()
 {
       int No1 = 0,No2 = 0,Res =  0;
 
-      printf("\n\n Entar 2 Numbars = ");
+      printf("\n\n Enter 2 Numbers = ");
       scanf("%d%d",&No1,&No2);
 
       Res = No1 + No2;
 
-      printf("\n Addition Of Givan Numbar %d + %d = %d",No1,No2,Res);
+      printf("\n Addition Of Given Numbers %d + %d = %d",No1,No2,Res);
 
       return;
 }
