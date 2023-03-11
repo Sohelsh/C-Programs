@@ -7,7 +7,7 @@
  {
       int Cnt =  0;
 
-      printf("\n Entar Count Of Series = ");
+      printf("\n Enter Count Of Series = ");
       scanf("%d",&Cnt);
 
       Fibonaoci(Cnt);
