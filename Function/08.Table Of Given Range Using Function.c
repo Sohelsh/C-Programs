@@ -8,21 +8,21 @@ int main()
     int SNo = 0,ENo =  0;
 
      up:
-    printf("\n\n Entar Staring Point = ");
+    printf("\n\n Enter Staring Point = ");
     scanf("%d",&SNo);
 
-    printf("\n Entar Ending Point = ");
+    printf("\n Enter Ending Point = ");
     scanf("%d",&ENo);
 
     if((SNo > 0 && SNo > 0) && (ENo > 0 && ENo > 0))
     {
             Table_Of_Range(SNo,ENo);
 
-            printf("\n Print Your Table Succfully.....");
+            printf("\n Print Your Table Successfully.....");
     }
     else
     {
-            printf("\n Invild Input ....");
+            printf("\n Invalid Input ....");
 
             goto up;
     }
