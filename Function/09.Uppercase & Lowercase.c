@@ -7,10 +7,10 @@
  {
           char Ch =  '\0';
 
-          printf("\n Entar Character = ");
+          printf("\n Enter Character = ");
           scanf("%c",&Ch);
 
-          Uppercase_And_Lowercase(Ch);     //Functoin Call
+          Uppercase_And_Lowercase(Ch);     //Function Call
 
  }
  char Uppercase_And_Lowercase(char C)
@@ -45,7 +45,7 @@
      }
      else
      {
-          printf("\n Invild Input....");
+          printf("\n Invalid Input....");
      }
 
           getch();
