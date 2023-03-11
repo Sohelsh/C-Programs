@@ -5,7 +5,7 @@
  {
      int No1 = 0, No2 = 0, Dig = 0,Cnt=1,Sum =  0;
 
-     printf("\n Entar  A Number : ");
+     printf("\n Enter  A Number : ");
      scanf("%d",&No1);
 
      printf("\n How Many Numbers To Sum : ");
