@@ -35,14 +35,14 @@
       switch(Choice)
       {
             case 1:
-                         printf("\n Entar 2 Numbers For Addition = ");
+                         printf("\n Enter 2 Numbers For Addition = ");
                          scanf("%d%d",&No1,&No2);
 
                          Add(No1,No2);
                          break;
 
            case 2:
-                         printf("\n Entar 2 Numbers For Subtraction = ");
+                         printf("\n Enter 2 Numbers For Subtraction = ");
                          scanf("%d%d",&No1,&No2);
 
                          Sub(No1,No2);
@@ -50,28 +50,28 @@
 
             case 3:
 
-                         printf("\n Entar 2 Numbers For Multiplication = ");
+                         printf("\n Enter 2 Numbers For Multiplication = ");
                          scanf("%d%d",&No1,&No2);
 
                          Mult(No1,No2);
                          break;
 
             case 4:
-                         printf("\n Entar 2 Numbers For Modulo = ");
+                         printf("\n Enter 2 Numbers For Modulo = ");
                          scanf("%d%d",&No1,&No2);
 
                          Mod(No1,No2);
                          break;
 
             case 5:
-                         printf("\n Entar 2 Numbers For Division  = ");
+                         printf("\n Enter 2 Numbers For Division  = ");
                          scanf("%d%d",&No1,&No2);
 
                          Div(No1,No2);
                          break;
 
              case 6:
-                         printf("\n Entar A Number Of Percentage = ");
+                         printf("\n Enter A Number Of Percentage = ");
                          scanf("%d",&No1);
 
                          printf("\n How Much Percent = ");
