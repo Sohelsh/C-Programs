@@ -2,7 +2,7 @@
 #include<conio.h>
 
 // GCD = Greatest Common Divisor
-// LCM = List Common Multipal
+// LCM = List Common Multiple
 
 int Calculate_Of_GCD(int N1,int N2)
 {
@@ -34,7 +34,7 @@ int main()
 {
         int No1 = 0, No2 = 0,LCM = 0, GCD = 0;
 
-        printf("\n Enter Two Nubers = ");
+        printf("\n Enter Two Numbers = ");
         scanf("%d%d",&No1,&No2);
 
         LCM = Calculate_Of_LCM(No1,No2);
