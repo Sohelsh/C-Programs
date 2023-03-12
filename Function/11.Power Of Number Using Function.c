@@ -7,7 +7,7 @@
  {
       int No1 = 0,No2 = 0,Res =  0;
 
-      printf("\n Entar No1 Raise To No2 = ");
+      printf("\n Enter No1 Raise To No2 = ");
       scanf("%d%d",&No1,&No2);
 
      Res = Power_Of_Number(No1,No2);
