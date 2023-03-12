@@ -7,7 +7,7 @@
  {
       int No =0,Res =  0;
 
-      printf("\n Entar A Number = ");
+      printf("\n Enter A Number = ");
       scanf("%d",&No);
 
       Res = Count_Of_Number(No);
