@@ -3,9 +3,9 @@
 
  int main()
  {
-     int No=0,i=0,Cnt = 0;
+     int No = 0,i = 0,Cnt = 0;
 
-     printf("\n Enter A Any Numbar = ");
+     printf("\n Enter A Any Number = ");
      scanf("%d",&No);
 
      for(i=1;i<=No;i++)
@@ -17,11 +17,11 @@
      }
      if(Cnt==2)
      {
-         printf("\n Numbar Is Prime ");
+         printf("\n Number Is Prime ");
      }
      else
      {
-         printf("\n Numbar Is Not Prime ");
+         printf("\n Number Is Not Prime ");
      }
 
      getch();
