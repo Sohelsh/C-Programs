@@ -10,7 +10,7 @@ int main()
     printf("\n Enter A character = ");
     scanf("%d",&No);
 
-    printf("\n ASCII value Of Charcater %d= %c",No,No);
+    printf("\n ASCII value Of Character %d= %c",No,No);
 
     getch();
     return 0;
