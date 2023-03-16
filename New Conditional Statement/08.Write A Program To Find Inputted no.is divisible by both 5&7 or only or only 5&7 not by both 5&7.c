@@ -5,7 +5,7 @@
  {
       int No = 0;
 
-     printf("\n Entar A Number = ");
+     printf("\n Enter A Number = ");
      scanf("%d",&No);
 
      if(No % 5 == 0 && No % 7 == 0)
