@@ -6,20 +6,20 @@
  {
      int No= 0;
 
-     printf("\n Enter A Any Numbar = ");
+     printf("\n Enter A Any Number = ");
      scanf("%d",&No);
 
      if(No == 0)
      {
-        printf("\n Given Numbar Is Natural");
+        printf("\n Given Number Is Natural");
      }
      else if(No%2 == 0)
      {
-         printf("\n Given Numbar Is Even ");
+         printf("\n Given Number Is Even ");
      }
      else
      {
-         printf("\n Given Numbar Is Odd");
+         printf("\n Given Number Is Odd");
      }
 
      getch();
