@@ -5,7 +5,7 @@
  {
       int Cnt = 0,No = 0;
 
-      printf("\n Entar A Numbar = ");
+      printf("\n Enter A Number = ");
       scanf("%d",&No);
 
       for(Cnt = 1; Cnt <= 10; Cnt++)
