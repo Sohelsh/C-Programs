@@ -5,10 +5,10 @@
  {
      int R = 0,C = 0,EP = 0,SP = 0;
 
-      printf("\n Entar Ending Numbar = ");
+      printf("\n Enter Ending Number = ");
       scanf("%d",&EP);
 
-      printf("\n Entar Starting Numbar = ");
+      printf("\n Enter Starting Number = ");
       scanf("%d",&SP);
 
       printf("\n----------------------------------------------------\n");
