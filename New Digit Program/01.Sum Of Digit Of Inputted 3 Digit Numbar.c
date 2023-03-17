@@ -6,7 +6,7 @@
  {
        int No = 0,Sum = 0,Dig = 0,Temp = 0;
 
-       printf("\n Entar  3 Digit Numbar =  ");
+       printf("\n Enter  3 Digit Number =  ");
        scanf("%d",&No);
 
        Temp = No;
