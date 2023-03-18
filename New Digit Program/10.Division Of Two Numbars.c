@@ -5,7 +5,7 @@
  {
       int No1 = 0,No2 = 0,Div = 0;
 
-      printf("\n Enntar Two Numbars For Division = ");
+      printf("\n Enter Two Numbers For Division = ");
       scanf("%d%d",&No1,&No2);
 
       Div = No1 / No2;
