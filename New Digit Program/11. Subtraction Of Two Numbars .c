@@ -5,7 +5,7 @@
  {
       int No1 = 0,No2 =0,Sub = 0;
 
-      printf("\n Entar Two Numbars Of Subtraction = ");
+      printf("\n Enter Two Numbers Of Subtraction = ");
       scanf("%d%d",&No1,&No2);
 
       Sub = No1 - No2;
