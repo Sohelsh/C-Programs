@@ -5,7 +5,7 @@
  {
       int No1 = 0,No2 =0,Mod = 0;
 
-      printf("\n Entar Two Numbars Of Modulo = ");
+      printf("\n Enter Two Numbers Of Modulo = ");
       scanf("%d%d",&No1,&No2);
 
       Mod = No1 % No2;
