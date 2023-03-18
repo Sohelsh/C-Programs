@@ -5,7 +5,7 @@
  {
       int No1 = 0,No2 = 0,Mul = 0;
 
-      printf("\n Entar 2 Numbar For Multiplication = ");
+      printf("\n Enter 2 Number For Multiplication = ");
       scanf("%d%d",&No1,&No2);
 
 
