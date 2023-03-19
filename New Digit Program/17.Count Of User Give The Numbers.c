@@ -5,10 +5,10 @@
  {
       int No = 0, Temp = 0,Cnt = 0,Dig = 0,Count_Num = 0;
 
-      printf("\n Entar A Number = ");
+      printf("\n Enter A Number = ");
       scanf("%d",&No);
 
-      printf("\n Entar A Which Number Count = ");
+      printf("\n Enter A Which Number Count = ");
       scanf("%d",&Count_Num);
 
       Temp=No;
