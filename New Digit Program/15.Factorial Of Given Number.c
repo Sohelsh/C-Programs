@@ -5,7 +5,7 @@
  {
       int No = 0,Fact = 1;
 
-      printf("\n Entar A Number = ");
+      printf("\n Enter A Number = ");
       scanf("%d",&No);
 
       while(No != 0)
