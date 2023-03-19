@@ -5,7 +5,7 @@
  {
       int No1 = 0,No2 =0,Add = 0;
 
-      printf("\n Entar Two Numbars Of Addition = ");
+      printf("\n Enter Two Numbers Of Addition = ");
       scanf("%d%d",&No1,&No2);
 
       Add = No1 + No2;
