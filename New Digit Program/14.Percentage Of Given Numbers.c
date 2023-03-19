@@ -5,7 +5,7 @@
  {
           int No1 = 0,No2 =0,Per = 0;
 
-          printf("\n Entar A Number Of Percentage = ");
+          printf("\n Enter A Number Of Percentage = ");
           scanf("%d",&No1);
 
           printf("\n How Much Percent = ");
