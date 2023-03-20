@@ -5,7 +5,7 @@
  {
       int No = 0,Temp = 0,Dig =0,E_Cnt = 0,O_Cnt =0;
 
-      printf("\n Entar A Numbers = ");
+      printf("\n Enter A Numbers = ");
       scanf("%d",&No);
 
       Temp=No;
