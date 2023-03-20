@@ -5,7 +5,7 @@
  {
       int No = 0,Temp = 0,Dig = 0, Dec = 0,Base =1;
 
-      printf("\n Entar Binary Number = ");
+      printf("\n Enter Binary Number = ");
       scanf("%d",&No);
 
       Temp = No;
