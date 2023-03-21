@@ -5,7 +5,7 @@
  {
          int iValue = 0,i = 1, Sum = 0;
 
-         printf("\n Entar Number = ");
+         printf("\n Enter Number = ");
          scanf("%d",&iValue);
 
          while(iValue > i)
