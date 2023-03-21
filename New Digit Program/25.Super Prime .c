@@ -8,7 +8,7 @@
  {
      int iNo = 0,iRet = 0,Sum = 0,Ans = 0;
 
-     printf("\n Entar Number = ");
+     printf("\n Enter Number = ");
      scanf("%d",&iNo);
 
      iRet = Declare_Prime(iNo);
