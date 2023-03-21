@@ -5,7 +5,7 @@
  {
      int iNo = 0,i = 0;
 
-     printf("\n Entar Number = ");
+     printf("\n Enter Number = ");
      scanf("%d",&iNo);
 
      for(i = 2;i < iNo;i++)
