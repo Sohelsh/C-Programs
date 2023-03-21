@@ -9,7 +9,7 @@ int main()
         printf("\n Enter Number = ");
         scanf("%d",&No);
 
-        printf("Fatorial Of Number = %ld",Factorial_Of_Number(No));
+        printf("Factorial Of Number = %ld",Factorial_Of_Number(No));
 
         return 0;
 }
