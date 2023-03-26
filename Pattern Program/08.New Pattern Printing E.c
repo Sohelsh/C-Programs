@@ -7,7 +7,7 @@ int main()
 {
     int R = 0,C = 0 ,N = 0;
 
-    printf("\n Entar Pattern Size =");
+    printf("\n Enter Pattern Size =");
     scanf("%d",&N);
 
     for(R =1 ;R <= N; R++)
