@@ -5,7 +5,7 @@ int main()
 {
         int i = 0,j = 0;
 
-        printf("\n\n Pattren is => \n\n");
+        printf("\n\n Pattern is => \n\n");
 
         for(i = 1;i <= 7; i++)
         {
