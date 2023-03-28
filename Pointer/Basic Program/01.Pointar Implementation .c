@@ -10,7 +10,7 @@
 
     printf("\n Value Of iNo = %d",iNo);
     printf("\n Address Of iNo =%d",&iNo);
-    printf("\n Value Of iNo Using Its Pointar iPtr = %d",*iPtr1);
+    printf("\n Value Of iNo Using Its Pointer iPtr = %d",*iPtr1);
     printf("\n Address Of iNo Using iPtr = %d",iPtr1);
     printf("\n Address Of iPtr = %d",&iPtr1);
 
