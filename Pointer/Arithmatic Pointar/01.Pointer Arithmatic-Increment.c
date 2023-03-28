@@ -7,9 +7,9 @@
      int *ptr =arr;
 
 
-     printf("\n Base Addares Of Array = %d",arr);
-     printf("\n Value Of Pointar = %d",ptr);
-     printf("\n Value Of Array Pointar Pointing = %d ",*ptr);
+     printf("\n Base Address Of Array = %d",arr);
+     printf("\n Value Of Pointer = %d",ptr);
+     printf("\n Value Of Array Pointer Pointing = %d ",*ptr);
 
 
      getch();
@@ -17,8 +17,8 @@
      ptr++;
 
 
-     printf("\n\n Aftar Increment Value Of Pointar = %d ",ptr);
-     printf("\n Value Of Array Pointar Pointing = %d",*ptr);
+     printf("\n\n Aftar Increment Value Of Pointer = %d ",ptr);
+     printf("\n Value Of Array Pointer Pointing = %d",*ptr);
 
      getch();
 
