@@ -21,15 +21,15 @@
 
       for(i = 0;i < Cnt; i++)
       {
-          printf("\n Entar Student Name = ");
+          printf("\n Enter Student Name = ");
           scanf("%s",&wor[i].Stu_Name);
 
           fflush(stdin);
 
-          printf("\n Entar Student Course = ");
+          printf("\n Enter Student Course = ");
           scanf("%s",&wor[i].Stu_Course);
 
-          printf("\n Entar Student Fee = ");
+          printf("\n Enter Student Fee = ");
           scanf("%d",&wor[i].Stu_Fee);
       }
       for(i = 0; i < Cnt; i++)
