@@ -36,26 +36,26 @@
       printf("\n\n\t  2nd Book =%d",Book2.Pages);
       printf("\n\n\t  2nd Book =%f",Book2.Prize);
 
-      printf("\n\n***** Entar 3rd Book Information ******");
+      printf("\n\n***** Enter 3rd Book Information ******");
 
-      printf("\n\t\n\t  Entar Book Title = ");
+      printf("\n\t\n\t  Enter Book Title = ");
       scanf(" %[^\n]",&Book3.Title);
 
       fflush(stdin);
 
 
-      printf("\n\t  Entar Book Author =");
+      printf("\n\t  Enter Book Author =");
       scanf(" %[^\n]",&Book3.Author);
 
       fflush(stdin);
 
-      printf("\n\t  Entar Book Pages = ");
+      printf("\n\t  Enter Book Pages = ");
       scanf(" %[^\n]",&Book3.Pages);
 
       fflush(stdin);
 
 
-      printf("\n\t  Entar Book Prize = ");
+      printf("\n\t  Enter Book Prize = ");
       scanf("%f",&Book3.Prize);
 
       fflush(stdin);
