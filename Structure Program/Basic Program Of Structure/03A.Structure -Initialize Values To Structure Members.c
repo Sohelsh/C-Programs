@@ -22,7 +22,7 @@
      Std1.Grade='B';
 
 
-     printf("\n\n \t Student Detils =>");
+     printf("\n\n \t Student Details =>");
 
      getch();
 
