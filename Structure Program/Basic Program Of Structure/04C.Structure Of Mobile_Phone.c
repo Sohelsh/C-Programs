@@ -17,13 +17,13 @@
      Mob2.RAM=2.99;
 
 
-     printf("\n Entar Mobile Company = ");
+     printf("\n Enter Mobile Company = ");
      scanf("%s",&Mob3.Company_Name);
 
-     printf("\n Entar Mobile Prize = ");
+     printf("\n Enter Mobile Prize = ");
      scanf("%d",&Mob3.Prize);
 
-     printf("\n Enatr Mobile Ram = ");
+     printf("\n Enter Mobile Ram = ");
      scanf("%f",&Mob3.RAM);
 
 
