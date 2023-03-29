@@ -15,10 +15,10 @@
      struct Student Std1={137,"Pruthviraj","MCA",9096272174};
 
 
-    printf("\n Student Roll Numbar = %d",Std1.Roll_No);
+    printf("\n Student Roll Number = %d",Std1.Roll_No);
     printf("\n Student Name        = %s",Std1.SName);
-    printf("\n Student Roll Numbar = %s",Std1.Course);
-    printf("\n Student Roll Numbar = %ld",Std1.Mo_Numbar);
+    printf("\n Student Roll Number = %s",Std1.Course);
+    printf("\n Student Roll Number = %ld",Std1.Mo_Numbar);
 
     getch();
 
