@@ -8,7 +8,7 @@
  };
  int main()
  {
-      int i=0;
+      int i = 0;
 
       struct Bus_Stand Bus[3];
 
@@ -16,12 +16,12 @@
       {
          printf("\n %d Numbar Bus ",i+1);
 
-         printf("\n\n Entar Bus Name = ");
+         printf("\n\n Enter Bus Name = ");
          scanf("%[^\n]s",&Bus[i].Bus_Name);
 
          fflush(stdin);
 
-         printf("\n\n Entar Bus Numbar = ");
+         printf("\n\n Enter Bus Number = ");
          scanf("%d",&Bus[i].Bus_Numbar);
 
          fflush(stdin);
