@@ -19,24 +19,24 @@
 
     for(i = 0 ;i < 2; i++)
     {
-        printf("\n %d Numbar Famile Information ",i+1);
+        printf("\n %d Number Family Information ",i+1);
 
-        printf("\n Entar Family Name = ");
+        printf("\n Enter Family Name = ");
         scanf("%[^\n]",&Fam[i].Family_Name);
 
         fflush(stdin);
 
-        printf("\n Entar Male Count = ");
+        printf("\n Enter Male Count = ");
         scanf("%d",&Fam[i].Male_Cnt);
 
         fflush(stdin);
 
-        printf("\n Entar Female Count = ");
+        printf("\n Enter Female Count = ");
         scanf("%d",&Fam[i].Female_Cnt);
 
         fflush(stdin);
 
-        printf("\n Entar Child Count = ");
+        printf("\n Enter Child Count = ");
         scanf("%d",&Fam[i].Child_Cnt);
 
         fflush(stdin);
