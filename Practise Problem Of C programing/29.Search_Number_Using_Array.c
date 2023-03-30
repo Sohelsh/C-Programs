@@ -29,7 +29,7 @@
 
                for(i = 0;i < Size;i++)
                {
-                  printf("\n Entar A Elements %d = ",i+1);
+                  printf("\n Enter A Elements %d = ",i+1);
                   scanf("%d",&N1[i]);
                }
                return;
@@ -48,7 +48,7 @@
     {
                int i = 0,Src = 0;
 
-               printf("\n\n Entar A Search Element = ");
+               printf("\n\n Enter A Search Element = ");
                scanf("%d",&Src);
 
                for(i = 0;i < Size;i++)
