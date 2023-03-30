@@ -9,9 +9,9 @@ struct Collage
         long int Stu_Mo_No;
         float Stu_Per;
         char Stu_Addres[9];                           /* You Can Avoid Padding like Small Data Type write First
-                                        and Big data Type Aftar Step By Step */
+                                        and Big data Type After Step By Step */
 };
-int main()                                            //or using Headar File #pragma pack(1)
+int main()                                            //or using Header File #program pack(1)
 {
         struct Collage Stu1;
 
