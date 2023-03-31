@@ -35,7 +35,7 @@ int main()
 
                            printf("\n ================================================================================================================");
 
-                           printf("\n Entar Your Choice =  ");
+                           printf("\n Enter Your Choice =  ");
                            scanf("%d",&Choice);
 
                            printf("\n ================================================================================================================");
@@ -85,7 +85,7 @@ int main()
 
                             if(i < Cnt)
                         {
-                                      printf("\n\n Entar Shop id = ");
+                                      printf("\n\n Enter Shop id = ");
                                       scanf("%d",&Shop[i].Shop_id);
 
 
@@ -125,16 +125,16 @@ int main()
 
                                            default :
 
-                                                    printf("\n\n :( Choice Corret Battery Company :( ");
+                                                    printf("\n\n :( Choice Correct Battery Company :( ");
                                                     goto up;
 
                                       }
 
-                                      printf("\n Entar Battery Prize = ");
+                                      printf("\n Enter Battery Prize = ");
                                       scanf("%f",&Shop[i].Battery_Price);
 
                                       Dis:
-                                      printf("\n Entar Battery Discount = ");
+                                      printf("\n Enter Battery Discount = ");
                                       scanf("%f",&Shop[i].Battery_Discount);
 
                                        if(Shop[i].Battery_Discount <= 5)
@@ -159,7 +159,7 @@ int main()
 
                                         for( j = 1;j < 5;j++)
                                         {
-                                                printf("\n\t\t\t (Waiting Just Momment)");
+                                                printf("\n\t\t\t (Waiting Just Moment)");
 
                                                 printf("\n----------------------------------------------");
                                                 printf("\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
