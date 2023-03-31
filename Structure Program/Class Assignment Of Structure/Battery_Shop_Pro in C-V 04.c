@@ -90,12 +90,12 @@ int main()
 
 
 
-                                      printf("\n\n Entar Shop id = ");
+                                      printf("\n\n Enter Shop id = ");
                                       scanf("%d",&Shop1->Shop_id);
 
                                       fflush(stdin);
 
-                                      printf("\n Entar Shop Name = ");
+                                      printf("\n Enter Shop Name = ");
                                       gets(Shop1->Shop_Name);
 
                                       printf("\n  ->->->->->->->->->-> Choice Battery Company <-<-<-<-<-<-<-<-<-<-");
@@ -139,11 +139,11 @@ int main()
 
                                       }
 
-                                      printf("\n Entar Battery Prize = ");
+                                      printf("\n Enter Battery Prize = ");
                                       scanf("%f",&Shop1->Battery_Price);
 
                                       Dis:
-                                      printf("\n Entar Battery Discount = ");
+                                      printf("\n Enter Battery Discount = ");
                                       scanf("%f",&Shop1->Battery_Discount);
 
                                        if(Shop1->Battery_Discount <= 5)
