@@ -71,12 +71,12 @@ int main()
 
                             for(i = 0; i < Cnt ;i++)
                             {
-                                      printf("\n\n Entar Shop id = ");
+                                      printf("\n\n Enter Shop id = ");
                                       scanf("%d",&Shop[i].Shop_id);
 
                                       fflush(stdin);
 
-                                      printf("\n Entar Shop Name = ");
+                                      printf("\n Enter Shop Name = ");
                                       gets(Shop[i].Shop_Name);
 
                                       printf("\n  ->->->->->->->->->-> Choice Battery Company <-<-<-<-<-<-<-<-<-<-");
@@ -120,11 +120,11 @@ int main()
 
                                       }
 
-                                      printf("\n Entar Battery Prize = ");
+                                      printf("\n Enter Battery Prize = ");
                                       scanf("%f",&Shop[i].Battery_Price);
 
                                       Dis:
-                                      printf("\n Entar Battery Discount = ");
+                                      printf("\n Enter Battery Discount = ");
                                       scanf("%f",&Shop[i].Battery_Discount);
 
                                        if(Shop[i].Battery_Discount <= 5)
