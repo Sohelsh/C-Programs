@@ -8,7 +8,7 @@ int main()
        char cSrc[30] = {'\0'};
        int i = 0,L_cnt = 0;
 
-       printf("Entar A String = ");
+       printf("Enter A String = ");
        gets(cSrc);
 
        while(cSrc[i] != '\0')
