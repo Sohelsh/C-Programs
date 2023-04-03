@@ -7,7 +7,7 @@ int main()                         //Use Of Integar
     int Cnt =0,i =0;
     int *ptr = NULL ,sum=0;
 
-    printf("\n Entar A Count = ");
+    printf("\n Enter A Count = ");
     scanf("%d",&Cnt);
 
     ptr =(int*)malloc(Cnt * sizeof(int));
@@ -19,7 +19,7 @@ int main()                         //Use Of Integar
 
     for(i =0;i < Cnt; i++)
     {
-        printf("\n Entar A Bill Numbar No%d = ",i +1);
+        printf("\n Enter A Bill Numbar No%d = ",i +1);
         scanf("%d",&ptr[i]);
 
         sum =sum +ptr[i];
