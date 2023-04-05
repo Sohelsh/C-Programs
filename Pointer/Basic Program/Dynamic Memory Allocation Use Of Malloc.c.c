@@ -7,7 +7,7 @@ int main()                         //Use Of Integar
     int Cnt =0,i =0;
     int *ptr = NULL ,sum=0;
 
-    printf("\n Entar A Count = ");
+    printf("\n Enter A Count = ");
     scanf("%d",&Cnt);
 
     ptr =(int*)malloc(Cnt * sizeof(int));
