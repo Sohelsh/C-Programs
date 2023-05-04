@@ -8,7 +8,7 @@
 
           for(i = 0;i < Size;i++)
           {
-           printf("\n 1.Entar Elements = ",i+1);
+           printf("\n 1.Enter Elements = ",i+1);
            scanf("%d",&Arr[i]);
           }
 
