@@ -1,51 +1,39 @@
-
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
-    int t;
+    int t, N, k,i,j;
     scanf("%d", &t);
 
-    while (t--)
+    for(i=0; i<t; i++)
     {
-        int N,i,j;
+        scanf("%d %d",&N,&k);
+
         int A[N];
-        scanf("%d", &N);
-
-
-        for (i = 0; i < N; i++)
+        for(j=0; j<N; j++)
         {
-            A[i] = i + 1;
+            scanf("%d", &A[j]);
         }
 
-        // print the array A
-        for (i = 0; i < N; i++)
+        int pos=0, neg=0, divk=0;
+        for(j=0; j<N; j++)
         {
-            printf("%d ", A[i]);
-        }
-        printf("\n");
-
-        // sort the array A in descending order
-        for (i = 0; i < N - 1; i++)
-        {
-            for(j = i + 1; j < N; j++)
+            if(A[j] < 0)
             {
-                if (A[i] < A[j])
-                {
-                    int temp = A[i];
-                    A[i] = A[j];
-                    A[j] = temp;
-                }
+                neg++;
+            }
+            else if(A[j]> 0)
+            {
+                pos++;
+            }
+
+            if(A[j]% k == 0)
+            {
+                divk++;
             }
         }
 
-        // print the array A sorted in descending order
-        for (i = 0; i < N; i++)
-        {
-            printf("%d ", A[i]);
-        }
-        printf("\n");
+        printf("%d %d %d\n", pos, neg, divk);
     }
 
     return 0;
