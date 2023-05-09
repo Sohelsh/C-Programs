@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 int main()
 {
@@ -15,7 +16,8 @@ int main()
     for(i = 0; i < 4;i++)
     {
         printf("%d",Arr[i]);
-    }
 
+
+    getch();
     return 0;
 }
