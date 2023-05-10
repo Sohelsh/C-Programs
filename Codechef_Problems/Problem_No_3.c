@@ -3,21 +3,22 @@
 
 int main()
 {
-    int No = 5;
+        int No = 10;
 
-    printf("%d\n",No);
+        printf("%d\n",No);
 
-    char A[5] = "ABCD";
+        char A[5] = "ABCD";
 
-    printf("%s\n",A);
+        printf("%s\n",A);
 
-    int Arr[] = {1, 2,3,4};
-    int i = 0;
-    for(i = 0; i < 4;i++)
-    {
-        printf("%d",Arr[i]);
+        int Arr[] = {1, 2,3,4};
 
+        int i = 0;
+        for(i = 0; i < 4;i++)
+        {
+            printf("%d",Arr[i]);
+        }
 
-    getch();
-    return 0;
+        getch();
+        return 0;
 }
