@@ -1,6 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 
-int main() {
+int main()
+{
     int t,X,Y;
     int i = 1;
     scanf("%d", &t );
@@ -10,5 +12,7 @@ int main() {
         i = i+1;
 
     }
+
+    getch();
     return 0;
 }
