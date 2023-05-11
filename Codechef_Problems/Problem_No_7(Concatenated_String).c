@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 #define Size 200
+
 int main()
 {
     char Str1[Size] = {},Str2[Size] = {};
@@ -32,5 +33,7 @@ int main()
 
     }
 
+
+    getch();
     return 0;
 }
