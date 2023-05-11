@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include<conio.h>
 
-int main() {
+int main()
+{
     int t;
     int n;
     int i = 1;
@@ -8,11 +10,14 @@ int main() {
     printf("\n Enter Number = ");
     scanf("%d\n", &t );
 
-    while ( i <= t) {
+    while ( i <= t)
+    {
         scanf("%d", &n);
         printf("%d\n", n+1 );
         i = i+1;
     }
+
+    getch();
     return 0;
 }
 
