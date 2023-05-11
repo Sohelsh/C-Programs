@@ -1,11 +1,14 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 
-int main() {
+int main()
+ {
     int t,A,B;
     int P,S;
     int i = 1;
         scanf("%d", &t );
-        while (i <= t){
+        while (i <= t)
+        {
             scanf("%d %d", &A,&B);
 
             S = A + B;
@@ -15,5 +18,7 @@ int main() {
 
             i = i+1;
         }
+
+    getch();
     return 0;
 }
