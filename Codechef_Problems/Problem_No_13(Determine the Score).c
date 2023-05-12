@@ -6,6 +6,8 @@ int main() {
 
     while (t--) {
         int X, N, points_per_testcase, score;
+
+        printf("\n Enter Number = ");
         scanf("%d%d", &X, &N);
 
         points_per_testcase = X / 10;
