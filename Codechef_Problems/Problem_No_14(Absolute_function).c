@@ -9,6 +9,8 @@ int main()
 
     for (i = 0; i < t; i++) {
         int A, B;
+
+        printf("\n Enter Number = ");
         scanf("%d %d", &A, &B);
         int diff1 = A - B;
         int diff2 = B - A;
