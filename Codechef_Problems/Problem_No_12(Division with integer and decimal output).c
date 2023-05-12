@@ -7,6 +7,8 @@ int main() {
     int i = 1;
     scanf("%d", &t );
     while (i <= t){
+
+        printf("\n Enter Number = ");
         scanf("%d%d",&A,&B);
         X = (float)A / B;
         Y = A / B;
