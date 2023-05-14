@@ -5,8 +5,12 @@ int main()
 {
     int t,X,Y;
     int i = 1;
+
+    printf("\n Enter Number :");
     scanf("%d", &t );
     while (i <= t){
+
+        printf("\n Enter Number :");
         scanf("%d %d", &X,&Y);
         printf("%d\n",X*Y);
         i = i+1;
