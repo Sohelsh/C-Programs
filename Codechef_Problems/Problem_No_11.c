@@ -6,6 +6,8 @@ int main()
     int t,A,B;
     int i = 1;
     int D,Q;
+
+      printf("\n Enter Number :");
     scanf("%d", &t );
     while (i <= t)
     {
