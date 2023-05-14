@@ -3,9 +3,13 @@
 int main()
  {
         int t, N, total_games, remaining_time,i;
+
+          printf("\n Enter Number :");
         scanf("%d", &t);
 
         for ( i = 0; i < t; i++) {
+
+            printf("\n Enter Number = ");
             scanf("%d", &N);
 
             total_games = N/30;
