@@ -3,8 +3,8 @@
 
 int main()
  {
-    int t,A,B;
-    int P,S;
+    int t = 0,A = 0,B = 0;
+    int P = 0,S = 0;
     int i = 1;
 
         printf("\n Enter Number :");
