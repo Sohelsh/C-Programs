@@ -1,10 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 
 int main()
  {
         int t, N, total_games, remaining_time,i;
 
-          printf("\n Enter Number :");
+        printf("\n Enter Number :");
         scanf("%d", &t);
 
         for ( i = 0; i < t; i++) {
@@ -18,5 +19,6 @@ int main()
             printf("%d %d\n", total_games, remaining_time);
         }
 
+        getch();
         return 0;
 }
