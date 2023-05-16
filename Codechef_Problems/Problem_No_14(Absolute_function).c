@@ -7,7 +7,8 @@ int main()
     int t = 0,i = 0;
     scanf("%d", &t);
 
-    for (i = 0; i < t; i++) {
+    for (i = 0; i < t; i++)
+    {
         int A, B;
 
         printf("\n Enter Number = ");
@@ -16,5 +17,7 @@ int main()
         int diff2 = B - A;
         printf("%d %d %d %d\n", diff1, diff2, abs(diff1), abs(diff2));
     }
+
+    getch();
     return 0;
 }
