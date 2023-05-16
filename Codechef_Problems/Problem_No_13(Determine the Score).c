@@ -1,20 +1,27 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 
-int main() {
+int main()
+ {
     int t;
-    scanf("%d", &t);
 
-    while (t--) {
-        int X, N, points_per_testcase, score;
+    printf("\n Enter Number = ");
+    scanf("%d",&t);
 
-        printf("\n Enter Number = ");
-        scanf("%d%d", &X, &N);
+    while (t--)
+        {
+            int X, N, points_per_testcase, score;
 
-        points_per_testcase = X / 10;
-        score = points_per_testcase * N;
+            printf("\n Enter Number = ");
+            scanf("%d%d", &X, &N);
 
-        printf("%d\n", score);
-    }
+            points_per_testcase = X / 10;
+            score = points_per_testcase * N;
 
+            printf("%d\n", score);
+      }
+
+
+    getch();
     return 0;
 }
