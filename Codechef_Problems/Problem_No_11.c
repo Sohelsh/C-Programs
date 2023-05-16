@@ -1,5 +1,5 @@
-
-#include <stdio.h>
+#include<conio.h>
+#include<stdio.h>
 
 int main()
  {
@@ -7,8 +7,9 @@ int main()
     int i = 1;
     int D,Q;
 
-      printf("\n Enter Number :");
+    printf("\n Enter Number :");
     scanf("%d", &t );
+
     while (i <= t)
     {
         printf("\n Enter Number = ");
@@ -19,5 +20,7 @@ int main()
         printf("%d %d\n",D,Q);
         i = i+1;
     }
+
+    getch();
     return 0;
 }
