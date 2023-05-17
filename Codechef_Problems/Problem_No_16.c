@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 
 int main()
 {
@@ -21,5 +22,6 @@ int main()
 
     }
 
+    getch();
     return 0;
 }
