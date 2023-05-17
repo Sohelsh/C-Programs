@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include<conio.h>
+
 
 int main()
 {
@@ -31,5 +33,6 @@ int main()
             printf("Number of questions incorrectly solved is 2\n");
         }
 
+     getch();
     return 0;
 }
