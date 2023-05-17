@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include<conio.h>
+
+
 int main()
 {
     int X = 3;
@@ -41,5 +45,6 @@ int main()
             printf("Z is divisible by neither X nor Y\n");
         }
 
+    getch();
     return 0;
 }
