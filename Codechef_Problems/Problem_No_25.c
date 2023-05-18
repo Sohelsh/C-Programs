@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 
 int main()
 {
@@ -36,5 +37,6 @@ int main()
         printf("%d %d %d\n", pos, neg, divk);
     }
 
+    getch();
     return 0;
 }
