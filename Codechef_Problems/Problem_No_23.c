@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
+
 
 int main() {
     int t, N, M,i;
@@ -17,6 +19,8 @@ int main() {
         }
     }
 
+
+    getch();
     return 0;
 }
 
