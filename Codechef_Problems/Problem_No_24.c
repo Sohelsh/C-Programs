@@ -1,5 +1,7 @@
 #include<stdio.h>
+#include<conio.h>
 #define N  4
+
 int main()
 {
     int A[N] = {0};
