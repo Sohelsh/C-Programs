@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 
 int main() {
     int X, Y;
@@ -9,5 +10,6 @@ int main() {
             printf("%d",(X-Y) + (Y/2));
         }
 
+    getch();
     return 0;
 }
