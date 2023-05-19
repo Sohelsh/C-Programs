@@ -10,6 +10,8 @@ int main()
     while(t--)
     {
       int X,N;
+
+      printf("\n Enter Number = ");
       scanf("%d",&N);
       scanf("%d",&X);
 
