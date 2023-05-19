@@ -8,6 +8,7 @@ int main()
 
     for(i=0; i<t; i++)
     {
+        printf("\n Enter Number = ");
         scanf("%d %d",&N,&k);
 
         int A[N];
