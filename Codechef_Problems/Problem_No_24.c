@@ -9,6 +9,7 @@ int main()
 
     for(i = 0; i < N;i++)
     {
+       printf("\n Enter Number = ");
        scanf("%d",&A[i]);
     }
 
