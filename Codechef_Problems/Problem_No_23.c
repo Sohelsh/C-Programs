@@ -4,6 +4,8 @@
 
 int main() {
     int t, N, M,i;
+
+    printf("\n Enter Number = ");
     scanf("%d", &t);
 
     for (i = 0; i < t; i++) {
