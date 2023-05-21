@@ -3,18 +3,18 @@
 
 int main()
  {
-        int t;
-        int A,B;
+        int t = 0;
+        int A = 0,B;
         char C[30];
         int i = 1;
 
-        scanf("%d", &t );
+        scanf("%d",&t);
 
         while( i <= t)
         {
-            scanf("%d%d", &A, &B );
-            scanf("%s", &C);
-            printf("%d %d %s \n ", A,B,C );
+            scanf("%d%d",&A,&B);
+            scanf("%s",&C);
+            printf("%d %d %s \n ", A,B,C);
             i = i+i;
         }
 
