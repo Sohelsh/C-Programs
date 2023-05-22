@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include<conio.h>
+
 int main()
 {
 	int t;
@@ -35,8 +37,8 @@ int main()
         {
             printf("1\n");
         }
-
-
 	}
+
+	getch();
 	return 0;
 }
