@@ -2,8 +2,9 @@
 #include<conio.h>
 
 
-int main() {
-    int t, N, M,i;
+int main()
+ {
+    int t = 0, N, M,i;
 
     printf("\n Enter Number = ");
     scanf("%d", &t);
