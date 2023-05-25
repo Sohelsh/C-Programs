@@ -1,11 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
 
-int main() {
-    int X, Y;
+int main()
+{
+    int X = 0, Y;
 
     printf("\n Enter Number = ");
-    scanf("%d%d", &X, &Y);
+    scanf("%d%d",&X,&Y);
 
         if(Y % 2 == 0)
         {
