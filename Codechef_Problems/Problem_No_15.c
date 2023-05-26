@@ -3,7 +3,7 @@
 
 int main()
  {
-        int t = 0,N = 0,total_games = 0, remaining_time,i;
+        int t = 0,N = 0,total_games = 0, remaining_time = 0,i;
 
         printf("\n Enter Number :");
         scanf("%d",&t);
