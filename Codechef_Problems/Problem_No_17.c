@@ -1,7 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 #include<conio.h>
 
-int main() {
+int main()
+ {
     int t,i;
     scanf("%d", &t);
 
