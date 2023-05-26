@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 #include<conio.h>
 
 
 int main()
 {
-    int X = 30;
+        int X = 30;
 
         if (X % 3 == 0)
         {
